@@ -172,7 +172,7 @@ def command_re(message):
 # handle '/se' command
 @bot.message_handler(commands=['se'])
 def command_se(message):
-    bot.set_webhook(url='https://user666123.pythonanywhere.com/')
+    bot.set_webhook(url=const.URL_WEBHOOK)
 """
 
 
